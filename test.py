@@ -6,6 +6,6 @@ import requests
  #for j in range(5):
     # f.write(books[i][j]+"\n")
 Base=" http://127.0.0.1:5000/"
-response= requests.post(Base+"buy/2")
+response= requests.post(Base+"buy/1")
 print("request is post")
 print(response.json())
